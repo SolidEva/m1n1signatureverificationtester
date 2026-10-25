@@ -1,0 +1,8 @@
+[package]
+name = "m1n1signatureverificationtester"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+anyhow = "1.0.104"
+rsa = { version = "0.9.10", default-features = false, features = ["pem", "pkcs5", "sha2", "u64_digit"] }
